@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    margin-top: 0px;
+    height: 100vh;
+    background:url("space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navcontainer{
+    position: absolute;
+    width: 50%;
+    height: 90px;
+    background-color:rgba(33, 32, 32, 0.588);
+    margin-left: 767px;
+    margin-top: 40px;
+}
+
+.line{
+    position:absolute;
+    width:40%;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.571);
+    margin-top: 90px;
+    margin-left:190px;
+}
+
+.diamond{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.underline{
+    background-color: white;
+    width:16%;
+    height: 3px;
+    margin-left: 570px;
+    margin-top: 35px;
+}
+
+.h5{
+    margin-top: 180px;
+    margin-left: 80px;
+    /* background-color: red; */
+    color: rgba(128, 128, 128, 0.571) ;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.h6{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 130px;
+    /* background-color: red; */
+    color:white;
+    position: absolute;
+    height: 40px;
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.one{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border-color:white ;
+    color: white;
+    background-color: transparent;
+    margin-top: 340px;
+    margin-left:100px ;
+    cursor: pointer;
+}
+.two{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border-color: white;
+    background-color:transparent;
+    margin-top: 440px;
+    margin-left:100px ;
+    cursor: pointer;
+}
+
+.three{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border-color: white;
+    background-color:transparent;
+    margin-top: 540px;
+    margin-left:100px ;
+    cursor: pointer;
+}
+
+.aa{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bb{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.cc{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.one:hover{
+background-color:gray;
+}
+
+.two:hover{
+    background-color:gray;
+    }
+.three:hover{
+        background-color:gray;
+        }
+
+.section{
+    position: absolute;
+    /* background-color: red; */
+    height: 490px;
+    width: 82%;
+    margin-top: 240px;
+    margin-left:200px;
+}
+
+.termi{
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.launch{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 55px;
+    letter-spacing:2px;
+}
+
+.para{
+    width: 37%;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.launchvechicle{
+    margin-left: 725px;
+    margin-top: -380px;
+}
+
+.numberbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
